@@ -1,0 +1,71 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: rgb(44, 92, 92);
+    width: 100vh;
+    padding: 20px;
+    color: white;
+	min-width:100%;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	left:0; right:0; top:0;
+    text-align: center;
+}
+
+.input{
+    width: 196px;
+    height: 20px;
+}
+.search {
+    margin-left: 15px;
+}
+.searchCity{
+    margin-top: 90px;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: rgb(44, 92, 92);
+    margin-top: 10px;
+    height: 30px;
+    width: 203px;
+    font-size: large;
+
+}
+
+.cityBtn {
+    margin-top: 10px;
+    height: 30px;
+    width: 203px;
+    font-size: large;
+}
+
+.currentForecast{
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.dayFC{
+    background-color: rgb(44, 92, 92);
+    width: 150px;
+    margin-left: 15px;
+    align-items: flex-end;
+}
+
+.currentForecast{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: auto;
+    border-style:solid;
+}
+
+#future {
+    background-color: rgb(97, 178, 212);
+    margin: 3px;
+    border-radius: 10px;
+}
